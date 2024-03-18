@@ -44,6 +44,7 @@ header {
     padding: 8px 10px;
     color: var(--cor-rosa);
     font-weight: 500;    
+    margin-right: 50px;
 }
 
 .faixa {
