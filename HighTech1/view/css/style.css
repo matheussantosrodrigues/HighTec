@@ -52,8 +52,9 @@ header {
 }
 
 header img {
-    width: 100px;
-    margin: 7px 0;
+    width: 140px;
+    margin-left: 20%;
+    margin-top: 3%;
 }
 
 nav ul {
