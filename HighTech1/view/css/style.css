@@ -42,11 +42,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 8px 10px;
-<<<<<<< Updated upstream
-=======
-    color: var(--cor-rosa);
-    font-weight: 500;
->>>>>>> Stashed changes
 }
 
 .faixa {
