@@ -42,6 +42,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 8px 10px;
+    color: var(--cor-rosa);
+    font-weight: 500;    
 }
 
 .faixa {
@@ -284,8 +286,7 @@ footer {
         align-items: center;
         justify-content: center;
         padding: 8px 20px;
-        color: var(--cor-rosa);
-        font-weight: 500;    
+        
     }
 
     header > img{
