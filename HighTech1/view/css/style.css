@@ -229,7 +229,8 @@ footer {
     text-align: center;
     background-color: var(--cor-verde-claro);
     color: #ffffff;
-    font-weight: 550;
+    font-weight: 450;
+    text-shadow: 0.1em 0.1em 0.1em rgb(68, 65, 65);
 }
 
 .arrobasInstas div {
