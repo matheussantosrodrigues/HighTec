@@ -42,7 +42,6 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 8px 10px;
-    
 }
 
 .faixa {
@@ -119,7 +118,6 @@ article> img{
     padding-bottom: 5px;
 }
 
-
 .dropdown {
     position: relative;
     display: inline-block;
@@ -134,15 +132,13 @@ article> img{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px #00000033;
     z-index: 1000;
-    
 }
 
 .dropdown-content a {
     color: var(--cor-nav-link);
     padding: 12px 15px;
     text-decoration: none;
-    display: block;
-    
+    display: block; 
 }
 
 .dropdown-content a:hover {
@@ -153,7 +149,6 @@ article> img{
 
 .dropdown:hover .dropdown-content {
     display: block;
-    
 }
 
 main {
@@ -188,8 +183,6 @@ article .nav-artigo a:hover {
     border-bottom: 1px solid white;
 } 
 
-
-
 .menu-icon{
     cursor: pointer;
 }
@@ -200,15 +193,16 @@ article > h2{
     font-size: 32px;
 }
 
-
 .titulo{
     text-align: center;
     font-weight: 700;
     font-size: 35px;
 }
+
 a img:hover{
     transition: 200ms linear;
 }
+
 a img:hover{
     transform: scale(1.1);
 }
@@ -221,23 +215,29 @@ footer {
     padding: 8px;
     text-align: center;
     background-color: var(--cor-verde-claro);
+    font-weight: 550;
 }
 
-#arrobasInstas > .linkBaixo {
-align-items: center;
-text-align: center;
-display: flex;
-color: var(--cor-verde-escuro);
-justify-items: center;
-margin-left: 30%;
+.arrobasInstas div {
+    text-align: center; 
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
+.arrobasInstas a {
+    color:  var(--cor-verde-escuro);; 
+    text-decoration: none; 
+    font-weight: 500;
+
+}
 @media screen and (max-width:1024px) {
+
     .nav-header{
         position: absolute;
         display: none;
         justify-content: center;      
     }
+
     .nav-header > ul{
         position: absolute;
         display: flex;
@@ -262,6 +262,7 @@ margin-left: 30%;
         text-align: center;
         margin: 0;
     }
+
     .nav-artigo{
         z-index: 99;
     }
@@ -272,6 +273,7 @@ margin-left: 30%;
         justify-content: center;
         padding: 8px 20px;
     }
+
     header > img{
         position: absolute;
         right: 0;
@@ -301,23 +303,24 @@ margin-left: 30%;
         text-decoration: none;
         display: flex;
     }
-    
+
     .dropdown:hover .dropdown-content {
         display: flex;
     }
+
     .fitnessNav{
         display: none;
     }
+
     #menu-margem{
        margin-bottom: -13px;
     }
   
     .titulos{
         margin-top: 25px;
-    }
-  
-    
+    } 
 }
+
 @media screen and (min-width:1025px) {
     header > img{
         display: none;
