@@ -231,6 +231,7 @@ footer {
     padding: 8px;
     text-align: center;
     background-color: var(--cor-verde-claro);
+    color: #ffffff;
     font-weight: 550;
 }
 
