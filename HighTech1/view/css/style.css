@@ -42,6 +42,11 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 8px 10px;
+<<<<<<< Updated upstream
+=======
+    color: var(--cor-rosa);
+    font-weight: 500;
+>>>>>>> Stashed changes
 }
 
 .faixa {
@@ -54,6 +59,17 @@ header img {
     width: 140px;
     margin-left: 20%;
     margin-top: 3%;
+    
+}
+
+nav img {
+    width: 20px;
+    height: 20px;
+    
+}
+
+nav > ul > li > p {
+    margin-left: 100px;
 }
 
 nav ul {
