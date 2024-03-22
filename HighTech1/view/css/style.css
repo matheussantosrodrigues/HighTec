@@ -170,6 +170,8 @@ article> img{
 
 main {
     min-height: calc(100vh - 137px);
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
 }
 
 article.container-artigo {
