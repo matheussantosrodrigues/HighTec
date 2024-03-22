@@ -174,6 +174,17 @@ main {
     grid-template-columns: 30% 30% 30%;
 }
 
+
+.paginasPesquisa {
+    min-height: calc(100vh - 137px);
+    margin-left: 25%;
+    align-items: center;
+    text-align: justify;
+    
+}
+
+
+
 article.container-artigo {
     display: flex;
     flex-direction: column;
@@ -262,16 +273,21 @@ footer {
 
 .tituloDaAba {
    font-size: 50px;
-   text-align: center;
-   padding-bottom: 1%;
-   margin-top: 1px;
+   margin-top: 3%;
+   align-items: center;
+   justify-content: center;
    color: var(--cor-rosa-escuro);
 }
 
 .tituloDaAbaViabilidade {
     font-size: 50px;
-    text-align: center;
-    padding-bottom: 1%;
     margin-top: 3%;
     color: var(--cor-verde-escuro);
+    align-items: center;
+    justify-content: center;
+ }
+
+ .imagens{
+    align-items: center;
+    justify-content: center;
  }
