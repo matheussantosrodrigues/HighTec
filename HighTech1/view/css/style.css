@@ -251,8 +251,8 @@ footer {
 }
 
 .caixaDeTexto {
-    width: 80%;
-    margin-top: 3%;
+    width: 70%;
+    margin-top: 2px;
     margin-bottom: 2%;
     overflow-wrap: break-word;
     text-align: left;
@@ -262,6 +262,14 @@ footer {
    font-size: 50px;
    text-align: center;
    padding-bottom: 1%;
-   margin-top: 1%;
+   margin-top: 1px;
    color: var(--cor-rosa-escuro);
 }
+
+.tituloDaAbaViabilidade {
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 1%;
+    margin-top: 3%;
+    color: var(--cor-verde-escuro);
+ }
