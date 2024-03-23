@@ -49,8 +49,8 @@
 
 .card2 {
     display: flex;
-    flex-direction: column; /* Ajusta o layout para ser em coluna */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
+    flex-direction: column;
+    align-items: center;
 }
 
 .card2 > img {
@@ -67,17 +67,15 @@
 }
 
 .botaoSaibaMais {
-    padding: 10px 25px;
-    border-radius: 7px; 
+    padding: 10px 30px;
+    border-radius: 10px; 
     color: white;
     text-decoration: none; 
     transition: all 0.3s ease; 
     cursor: pointer; 
     font-weight: bold; 
-    margin-top: 10px; /* Ajusta margem superior */
-    margin-bottom: -10px; /* Ajusta margem inferior */
-    margin-right: -10px; /* Ajusta margem direita */
-    margin-left: -10px; /* Ajusta margem esquerda */
+    margin-bottom: 15px; 
+
 }
 
 .botaoSaibaMais:hover {
