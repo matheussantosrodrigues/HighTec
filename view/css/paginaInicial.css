@@ -6,7 +6,7 @@
 
 :root {
     --cor-fundo: #fff7f7;
-    --cor-verde-claro: #9AE4C3;
+    --cor-verde-claro: #9AE4C3;  
     --cor-verde-escuro: #058177;
     --cor-rosa: #E96EA9;
     --cor-rosa-escuro: #E23D8C;
@@ -25,7 +25,7 @@
 .cardColor {
     display: flex;
     width: 280px;
-    height: 480px;
+    height: 450px;
     border-radius: 20px;
     transition: all .3s;
     margin: 0 2%;
@@ -45,4 +45,42 @@
     transform: scale(0.98);
     border-radius: 20px;
     box-shadow: none;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column; /* Ajusta o layout para ser em coluna */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+}
+
+.card2 > img {
+    width: 80%;
+    height: 210px; 
+    padding: 10px;
+    margin-top: 7px;
+}
+
+.card2 > h2 {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 70px;
+}
+
+.botaoSaibaMais {
+    padding: 10px 25px;
+    border-radius: 7px; 
+    color: white;
+    text-decoration: none; 
+    transition: all 0.3s ease; 
+    cursor: pointer; 
+    font-weight: bold; 
+    margin-top: 10px; /* Ajusta margem superior */
+    margin-bottom: -10px; /* Ajusta margem inferior */
+    margin-right: -10px; /* Ajusta margem direita */
+    margin-left: -10px; /* Ajusta margem esquerda */
+}
+
+.botaoSaibaMais:hover {
+    text-decoration: none;
+    transform: scale(1.1);
 }
