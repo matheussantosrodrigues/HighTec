@@ -292,9 +292,15 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-weight: 500;
 }
 
  .imagens{
     align-items: center;
     justify-content: center;
  }
+
+ main {
+    min-height: calc(100vh - 183px);
+    display: grid;
+}
