@@ -82,3 +82,11 @@
     text-decoration: none;
     transform: scale(1.1);
 }
+footer {
+    padding: 8px;
+    text-align: center;
+    background-color: #7dd5b3;
+    color: #ffffff;
+    font-weight: 450;
+    text-shadow: 0.1em 0.1em 0.1em rgb(68, 65, 65);
+}
