@@ -408,11 +408,13 @@
 
 
 .todos{
+  width: 70%;
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px 200px 200px;
+  grid-template-columns: 200px 200px 200px 200px 200px;
   margin-top: 5%;
   margin-bottom: 10%;
-  
+  align-items: center;
+  justify-content: space-between;
 }
 
 .imageQuemSomos {
