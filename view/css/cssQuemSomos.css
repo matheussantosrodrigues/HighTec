@@ -32,7 +32,7 @@
   position: absolute;
   font-size: 90%;
   font-weight: bold;
-  color: rgb(241, 29, 29);
+  color: white;
   margin-top: -190px;
 }
 
@@ -45,7 +45,7 @@
   position: absolute;
   font-size: 90%;
   font-weight: bold;
-  color: rgb(241, 29, 29);
+  color: white;
   margin-top: -200px;
 }
 
@@ -58,7 +58,7 @@
   position: absolute;
   font-size: 90%;
   font-weight: bold;
-  color: rgb(241, 29, 29);
+  color: white;
   margin-top: -180px;
 }
 
@@ -71,7 +71,7 @@
   position: absolute;
   font-size: 90%;
   font-weight: bold;
-  color: rgb(241, 29, 29);
+  color: white;
   margin-top: -200px;
 }
 
@@ -130,7 +130,7 @@
 }
 
 .canvas {
-  perspective: 800px;
+  perspective: 1000px;
   inset: 0;
   z-index: 200;
   position: absolute;
@@ -406,22 +406,10 @@
   color: var(--cor-rosa-escuro);
 }
 
-.bregima{
-  display: grid;
-  /* grid-template-columns: 300px 300px 300px; */
-  grid-template-columns: 25% 25% 25%;
-  margin-left: 20%;
-}
-
-.mipe{
-  display: grid;
-  grid-template-columns: 25% 25%;
-  margin-left: 30%;
-  margin-top:3%;
-
-}
 
 .todos{
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px;
   margin-top: 5%;
   margin-bottom: 10%;
   
@@ -438,7 +426,7 @@
 
 .quemSomosImageGisele {
   position: relative;
-  bottom: -1px;
+  bottom: -30px;
 }
 
 .quemSomosImageMatheus {
